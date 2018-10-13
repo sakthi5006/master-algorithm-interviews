@@ -12,7 +12,7 @@ Algorithm questions
 || Ask Questions |Clear loops, with exit on redudant things|||
 || Ask Questions |Do not mess with indexes while looping/consider end conditions|||
 || Consider Edge Conditions |If conditions||memory utilization|
-||  |Conditions when it might enter infinite loop||memory utilization|
+||  |Conditions when it might enter infinite loop|||
 || Come up with at least 3 appraoches and choose best fit  ||||
 
 
