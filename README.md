@@ -1,5 +1,5 @@
 
-# interview-links
+# Coding interview useful links
 
 ### Visualize recursion (backtracking + dynamic programming + exhaustive search)
 http://www.codeskulptor.org/viz/index.html
