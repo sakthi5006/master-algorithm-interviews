@@ -47,7 +47,7 @@ Examples -
 
 
 
-#### Intervierer should look for 
+#### Interviewer should look for 
 - Asking right questions 
 - Lateral thinking [give three options/solutions based on contraints like memory, real time , near realtime or batch responses]
 - Ability to come up with edge cases and handle it in code
