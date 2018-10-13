@@ -16,7 +16,7 @@ Algorithm questions
 
 Look for 
 - Asking right questions 
-- Lateral thinking 
+- Lateral thinking [give three options/solutions based on contraints like memory, real time , near realtime or batch responses]
 - Ability to come up with edge cases and handle it in code
 - Able to write code 
 - Approach 
