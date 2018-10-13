@@ -1,7 +1,7 @@
 
 # Coding interview useful links
 
-### Visualize recursion (backtracking + dynamic programming + exhaustive search)
+### Visualize recursion (recursion/backtracking/dynamic programming/branch and bound)
 http://www.codeskulptor.org/viz/index.html
 
 
