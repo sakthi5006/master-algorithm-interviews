@@ -9,8 +9,8 @@ Algorithm questions
 |------------------------------|-------------|------|-------|----------|
 | Rewrite problem in your own words as you can understand more | Ask implicit assumptions | Write clean code | Unit test  | caching |
 ||Make explicit assumption and state it| | |recursion vs iteration | Test happy scenarios 
-|| Ask Questions |Clear loops, with exit on redudant things|||
-|| Ask Questions |Do not mess with indexes while looping/consider end conditions|||
+|| *Ask right Questions* |Clear loops, with exit on redudant things|||
+||  |Do not mess with indexes while looping/consider end conditions|||
 || Consider Edge Conditions |If conditions||memory utilization|
 ||  |Conditions when it might enter infinite loop|||
 || Come up with at least 3 appraoches and choose best fit  ||||
