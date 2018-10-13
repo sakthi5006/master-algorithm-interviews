@@ -19,12 +19,13 @@
 ### IDEs
 - https://ide.geeksforgeeks.org/
 - http://jupyter.org/
+https://play.golang.org/
 
 ### Languages
-- Java
-- Pyhton 
-- Golang
-- Scala
+- Java (Eclipse, IntelliJ, vscode, sublime text)
+- Pyhton (PyCharm, vscode, sublime text)
+- Golang (GoLand, vscode, sublime text)
+- Scala (Eclipse,IntelliJ )
 
 
 # Coding interview useful links
