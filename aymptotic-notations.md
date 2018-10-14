@@ -37,7 +37,7 @@ Template for exmaple
 function(n) { 
 
  // base case 
- if (n > 0)
+ if (n < 0)
     return 0 
 
 // recursion call
