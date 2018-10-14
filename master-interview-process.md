@@ -3,17 +3,18 @@ Algorithm questions
 
 - Asked under time pressure like (solve in 30 min and come up with production quality)
 
+The algorithm should be 
+- Well defined inputs/out-puts, ask interview what he wants clearly
+- Validations of inputs [ask for valid inputs limitation which forms your boundry conditions]
+- Definiteness [it gives what is asked it not random, for same input returns same output]
+- Finiteness [Make sure there not infinite loops - mostly based on boundary conditions]
+- Effectiveness [No redudant calculation/space]
 
 
-|Paraphrase Problem Statement | Assumptions | Code | Test  | Optimize |
+| Paraphrase Problem Statement | Assumptions | Code | Test  | Optimize |
 |------------------------------|-------------|------|-------|----------|
-| Rewrite problem in your own words as you can understand more | Ask implicit assumptions | Write clean code | Unit test  | caching |
-||Make explicit assumption and state it| | |recursion vs iteration | Test happy scenarios 
-|| *Ask right Questions* |Clear loops, with exit on redundant things|||
-||  |Do not mess with indexes while looping/consider and conditions|||
-|| Consider Edge Conditions |If conditions||memory utilization|
-||  |Conditions when it might enter an infinite loop|||
-|| Come up with at least 3 approaches and choose the best fit  ||||
+| Rewrite problem in your own words as you can understand more | <ul><li>*Before starting, Ask right Questions*</li><li>Ask implicit assumptions </li><li>Make explicit assumption and state it</li><li> Have consensus on limitations fo design</li></ul>|<ul><li>Come up with at least three possible soluttion and choose best based on time-space trade-offs </li><li> Write clean code</li><li>recursion vs iteration</li>efficient loops, conditions, if any and Consider Edge Conditions<li>Alter on conditions where code enters infinite loop</li></ul> |<ul><li> Unit test </li><li>Test happy scenarios</li><li>Test boundry conditions </li></ul>  | <ul><li>Always time-sapce trade-off</li><li>Choose right data-structure, use auxillary structures if needed </li> <li>Network bandwidth</li><li>Power consumption in case of mobile devices</li><li>space/memory - CPU register/Main memory/file system/network /li><li>Try to improve big O for time and space</li></ul> |
+
 
 
 
