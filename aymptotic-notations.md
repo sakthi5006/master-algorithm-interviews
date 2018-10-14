@@ -31,11 +31,20 @@ in O(n),  ```n --> infinity```
 #### Recursive 
 -------
 
-| scenario |comment |O(N)
+Template
+```
+function(n) 
+{ // base case n > 0 return 0 
+// recursion call
+ <<RECURSION_CALL>>
+ }
+```
+
+| RECURSION_CALL |comment |O(N)
 |--------------------------------------------------|--------------------------|---------------|
-| `function(1) { // base case n > 0 // recursion function(n-1)}` | f(n) = f(n-1) + k |  O(n)|
-| `function(1) { // base cas  n > 0 // recursion function(n-1)+function(n-2)}` | f(n) = [f(n-1 + f(n-2)] +k |  O(2^n)|
-| `function(1) { // base case n > 0 // recursion for(i 1 to n) {function(n-1)}}` | f(n) = [ f(n-1 + f(n-2)+ ..f(n-n)] +k  |  O(n^n)|
+| `function(n-1) ` | f(n) = f(n-1) + k , f(0) = 0 |  O(n)|
+| `function(n-1)+function(n-2)` | f(n) = [f(n-1 + f(n-2)] +k , f(0) = 0 |  O(2^n)|
+| `for(i 1 to n) {function(n-1) ` | f(n) = [ f(n-1 + f(n-2)+ ..f(n-n)] +k  , f(0) = 0  |  O(n^n)|
 
 
 
