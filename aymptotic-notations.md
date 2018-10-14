@@ -33,7 +33,9 @@ in O(n),  ```n --> infinity```
 
 | scenario |comment |O(N)
 |--------------------------------------------------|--------------------------|---------------|
-| `for(int i =0; i <n ; i =i +k)` | n/k * O(n) | O(n) | 
+| `function(1) { // base case // recursion function(n-1)}` |  O(n) |  O(n)|
+| `function(1) { // base case // recursion function(n-1) function(n-2)}` |  O(2^n) |  O(2^n)|
+| `function(1) { // base case // recursion for(i 1 to n) {function(n-1)}}` |  O(n^n) |  O(n^n)|
 
 
 
