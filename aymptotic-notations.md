@@ -24,7 +24,7 @@ in O(n),  ```n --> infinity```
 
 ```
 
-![grpahs](https://www.desmos.com/calculator/izcw1omibp)
+![Sample Functions](https://raw.githubusercontent.com/nileshsalpe/master-algorithm-interviews/master/docs/assets/big_o_graph.png)
 
 
 
