@@ -45,11 +45,45 @@ function(n) {
  }
 ```
 
-| RECURSION_CALL |comment |O(N)
+| RECURSION_CALL |comment |O(N)|
 |--------------------------------------------------|--------------------------|---------------|
 | `function(n-1) ` | f(n) = f(n-1) + k , f(0) = 0 |  O(n)|
 | `function(n-1) + function(n-2)` | f(n) = [f(n-1 + f(n-2)] +k , f(0) = 0 |  O(2^n)|
 | `for(i 1 to n) + function(n-1) ` | f(n) = [ f(n-1 + f(n-2)+ ..f(n-n)] +k  , f(0) = 0  |  O(n^n)|
+
+
+
+#### Reducing recursive functions 
+
+| function |comment |O(N)|
+|-----------|------|-----|
+| f(n) = f(n - 1) + k | O(k * n) | O(n)|
+| f(n) = f(n - k)+ c | O(c* n/k) | O(n)|
+| f(n) = f(n - 1) + n| O(n * n ) | O(n^2)|
+| f(n) = f(n - 1) + n^2| O(n^2 * n ) | O(n^3)|
+| f(n) = f(n - 1) + log(n)| O(log(n) * n)|O(nlog(n)|
+| f(n) = f(n - 1) + g(n)| | g * (n) * O(n)|
+| f(n) = 2 * f(n - 1) + 1| say `function(n-1) + function(n-2)`|O(2^n)|
+| f(n) = 3 * f(n - 1) + 1| say `function(n-1) + function(n-2) +  function(n-3)`|O(3^n) |
+| f(n) = a * f(n - k) + c| O(a^n/k * c), say `function(n-1) called a times in loop` |O(a^n)|
+| f(n) = a * f(n - k) + g(n)| O(g(n)*(a^n/k))|O(g(n) * a^n)|
+
+
+#### Dividing value of recursive function 
+
+Please refer Master's theorem for this.
+
+``` 
+based on value a < 1 or a = 1 or a > 1  there are direct formula.
+
+T(n) = aT(n-b) + f(n) ```
+
+
+| function |comment |O(N)|
+|-----------|------|-----|
+| f(n) = f(n/2) + c | | O(log2(n))|
+| f(n) = f(n/k) + c | | O(logk(n))|
+| f(n) = f(k_root(n)) + c | | O(loglogk(n))|
 
 
 
