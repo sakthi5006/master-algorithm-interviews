@@ -6,7 +6,7 @@ Algorithm questions
 
 ### The algorithm should be 
 
-- Well defined inputs/out-puts, ask interview what he wants clearly
+- Well defined inputs/out-puts, ask interviewer what he wants clearly
 - Validations of inputs [ask for valid inputs limitation which forms your boundry conditions]
 - Definiteness [it gives what is asked it not random, for same input returns same output]
 - Finiteness [Make sure there not infinite loops - mostly based on boundary conditions]
