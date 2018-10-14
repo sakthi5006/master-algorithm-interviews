@@ -8,12 +8,14 @@ The algorithm should be
 - Validations of inputs [ask for valid inputs limitation which forms your boundry conditions]
 - Definiteness [it gives what is asked it not random, for same input returns same output]
 - Finiteness [Make sure there not infinite loops - mostly based on boundary conditions]
-- Effectiveness [No redudant calculation/space]
+- Effectiveness [No redudant use of space or cpu]
+
 
 
 | Paraphrase Problem Statement | Assumptions | Code | Test  | Optimize |
 |------------------------------|-------------|------|-------|----------|
-| Rewrite problem in your own words as you can understand more | <ul><li>*Before starting, Ask right Questions*</li><li>Ask implicit assumptions </li><li>Make explicit assumption and state it</li><li> Have consensus on limitations fo design</li></ul>|<ul><li>Come up with at least three possible soluttion and choose best based on time-space trade-offs </li><li> Write clean code</li><li>recursion vs iteration</li>efficient loops, conditions, if any and Consider Edge Conditions<li>Alter on conditions where code enters infinite loop</li></ul> |<ul><li> Unit test </li><li>Test happy scenarios</li><li>Test boundry conditions </li></ul>  | <ul><li>Always time-sapce trade-off</li><li>Choose right data-structure, use auxillary structures if needed </li> <li>Network bandwidth</li><li>Power consumption in case of mobile devices</li><li>space/memory - CPU register/Main memory/file system/network /li><li>Try to improve big O for time and space</li></ul> |
+| Rewrite problem in your own words as you can understand more |<ul><li>*Before starting, Ask right Questions*</li><li>Ask implicit assumptions </li><li>Make explicit assumption and state it</li><li> Have consensus on limitations fo design</li></ul>|<ul><li>Come up with at least three possible solutions and choose best based on time-space trade-offs </li><li> Write clean code</li><li>recursion vs iteration</li><li>efficient loops, conditions, if any and Consider Edge Conditions</li><li>Alter on conditions where code enters infinite loop</li></ul>|<ul><li> Unit test </li><li>Test happy scenarios</li><li>Test boundary conditions </li></ul>  | <ul><li>Always time-space trade-off</li><li>Choose right data-structure, use auxiliary structures if needed </li> <li>Network bandwidth</li><li>Power consumption in case of mobile devices</li><li>space/memory - CPU register/Main memory/file system/network </li><li>Try to improve the big O for time and space</li></ul> |
+
 
 
 
