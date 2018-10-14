@@ -48,8 +48,8 @@ function(n) {
 | RECURSION_CALL |comment |O(N)
 |--------------------------------------------------|--------------------------|---------------|
 | `function(n-1) ` | f(n) = f(n-1) + k , f(0) = 0 |  O(n)|
-| `function(n-1)+function(n-2)` | f(n) = [f(n-1 + f(n-2)] +k , f(0) = 0 |  O(2^n)|
-| `for(i 1 to n) {function(n-1) ` | f(n) = [ f(n-1 + f(n-2)+ ..f(n-n)] +k  , f(0) = 0  |  O(n^n)|
+| `function(n-1) + function(n-2)` | f(n) = [f(n-1 + f(n-2)] +k , f(0) = 0 |  O(2^n)|
+| `for(i 1 to n) + function(n-1) ` | f(n) = [ f(n-1 + f(n-2)+ ..f(n-n)] +k  , f(0) = 0  |  O(n^n)|
 
 
 
