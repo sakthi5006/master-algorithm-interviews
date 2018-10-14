@@ -33,9 +33,9 @@ in O(n),  ```n --> infinity```
 
 | scenario |comment |O(N)
 |--------------------------------------------------|--------------------------|---------------|
-| `function(1) { // base case // recursion function(n-1)}` |  O(n) |  O(n)|
-| `function(1) { // base case // recursion function(n-1)+function(n-2)}` |  O(2^n) |  O(2^n)|
-| `function(1) { // base case // recursion for(i 1 to n) {function(n-1)}}` |  O(n^n) |  O(n^n)|
+| `function(1) { // base case n > 0 // recursion function(n-1)}` | f(n) = f(n-1) + k |  O(n)|
+| `function(1) { // base cas  n > 0 // recursion function(n-1)+function(n-2)}` | f(n) = [f(n-1 + f(n-2)] +k |  O(2^n)|
+| `function(1) { // base case n >  // recursion for(i 1 to n) {function(n-1)}}` | f(n) = [ f(n-1 + f(n-2)+ ..f(n-n)] +k  |  O(n^n)|
 
 
 
