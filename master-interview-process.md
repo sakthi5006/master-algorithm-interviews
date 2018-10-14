@@ -1,9 +1,11 @@
 
 Algorithm questions 
+----
 
 - Asked under time pressure like (solve in 30 min and come up with production quality)
 
-The algorithm should be 
+### The algorithm should be 
+
 - Well defined inputs/out-puts, ask interview what he wants clearly
 - Validations of inputs [ask for valid inputs limitation which forms your boundry conditions]
 - Definiteness [it gives what is asked it not random, for same input returns same output]
@@ -11,6 +13,9 @@ The algorithm should be
 - Effectiveness [No redudant use of space or cpu]
 
 
+### Simple steps to follow, create these columns on dash-board
+
+-----
 
 | Paraphrase Problem Statement | Assumptions | Code | Test  | Optimize |
 |------------------------------|-------------|------|-------|----------|
@@ -19,9 +24,8 @@ The algorithm should be
 
 
 
-
-
 ### Assumptions
+-----
 
 Examples- 
 - If your problem boils down to data structure?
@@ -51,6 +55,8 @@ Examples-
 
 
 #### Interviewer should look for 
+-----
+
 - Asking the right questions 
 - Lateral thinking [give three options/solutions based on constraints like memory, real time, near real time or batch responses]
 - Ability to come up with edge cases and handle it in code
