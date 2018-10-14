@@ -15,7 +15,10 @@ Asymptotic Notations
 
 ### Big O Notation 
 
-in O(n),  ```n --> infinity```
+in O(n), 
+``` 
+n --> infinity
+```
 
 * in example assume  k < n
 
@@ -71,13 +74,14 @@ function(n) {
 
 #### Dividing value of recursive function 
 
-Please refer Master's theorem for this.
+Please refer Master's theorem for this
 
-``` 
-based on value a < 1 or a = 1 or a > 1  there are direct formula.
+```
+Based on value a < 1 or a = 1 or a > 1  there are direct formula.
 
-T(n) = aT(n-b) + f(n) ```
+T(n) = a * T(n-b) + f(n) 
 
+```
 
 | function |comment |O(N)|
 |-----------|------|-----|
@@ -87,14 +91,12 @@ T(n) = aT(n-b) + f(n) ```
 
 
 
-
 #### Non-Recursive 
 -------
 
 * for loop here could be while/if-while/do-while/for loop etc depends on language symantics 
 
-
-| scenario |comment |O(N)
+| scenario |comment | O(N) |
 |--------------------------------------------------|--------------------------|---------------|
 | `for(int i = 0; i < n ; i = i +k)` | n/k * O(n) | O(n) | 
 | `for(int i = n; i > 0 ; i = i - k)` | n/k * O(n) | O(n) | 
@@ -103,7 +105,6 @@ T(n) = aT(n-b) + f(n) ```
 | `for(int i = 1; i*i..k-times < n ; i = i+k)` | k_root(n) | k_root(n) |
 | `for(int i = 1; i < n ; i = i*k)` | logk(n) |logk(n) |
 | `for(int i = n; i > 1 ; i = i/k)` |logk(n) | logk(n) |
-
 
 
 
