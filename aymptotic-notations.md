@@ -31,12 +31,17 @@ in O(n),  ```n --> infinity```
 #### Recursive 
 -------
 
-Template
+Template for exmaple 
+
 ```
-function(n) 
-{ // base case n > 0 return 0 
+function(n) { 
+
+ // base case 
+ if (n > 0)
+    return 0 
+
 // recursion call
- <<RECURSION_CALL>>
+   return <<RECURSION_CALL>>
  }
 ```
 
