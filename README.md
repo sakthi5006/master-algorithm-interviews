@@ -19,7 +19,7 @@
 ### IDEs
 - https://ide.geeksforgeeks.org/
 - http://jupyter.org/
-https://play.golang.org/
+- https://play.golang.org/
 
 ### Languages
 - Java (Eclipse, IntelliJ, vscode, sublime text)
