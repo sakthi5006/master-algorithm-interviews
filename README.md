@@ -12,7 +12,7 @@
 - [Algorithms in Python](http://interactivepython.org/runestone/static/pythonds/index.html)
 
 ### Books
-- https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=dp_ob_title_bk
+- [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=dp_ob_title_bk)
 
 - [Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles, Fifth Edition](https://www.amazon.com/Data-Structures-Algorithms-Made-Easy-ebook/dp/B01N32J05C/ref=sr_1_3?s=books&ie=UTF8&qid=1539454740&sr=1-3&keywords=karumanchi)
 
