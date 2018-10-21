@@ -8,7 +8,7 @@
 
 - [Stansford University, BS course](https://www.youtube.com/channel/UCAjNo4Z2ddlHZ4S3RMr0cHw) or http://web.stanford.edu/class/cs106b/textbook.shtml
  
-- [Indian Teacher - Abdul Bari - very simple explabations of complex algo] (https://www.youtube.com/watch?v=0IAPZzGSbME)
+- [Indian Teacher - Abdul Bari - very simple explabations of complex algo](https://www.youtube.com/watch?v=0IAPZzGSbME)
 - [Algorithms in Python](http://interactivepython.org/runestone/static/pythonds/index.html)
 
 ### Books
