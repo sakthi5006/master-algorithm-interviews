@@ -2,11 +2,11 @@
 
 ### Videos 
 
-- https://www.youtube.com/user/mycodeschool
+- [My code school](https://www.youtube.com/user/mycodeschool)
 
-- [My code school] (https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLxc4gS-_A5VDXUIOPkJkwQKYiT2T1t0I8)
+- [Princeton University](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLxc4gS-_A5VDXUIOPkJkwQKYiT2T1t0I8)
 
-- [Stansford University, BS course] (https://www.youtube.com/channel/UCAjNo4Z2ddlHZ4S3RMr0cHw) or http://web.stanford.edu/class/cs106b/textbook.shtml
+- [Stansford University, BS course](https://www.youtube.com/channel/UCAjNo4Z2ddlHZ4S3RMr0cHw) or http://web.stanford.edu/class/cs106b/textbook.shtml
  
 - [Indian Teacher - Abdul Bari - very simple explabations of complex algo] (https://www.youtube.com/watch?v=0IAPZzGSbME)
 - [Algorithms in Python](http://interactivepython.org/runestone/static/pythonds/index.html)
@@ -14,9 +14,9 @@
 ### Books
 - https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=dp_ob_title_bk
 
-- [ Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles, Fifth Edition](https://www.amazon.com/Data-Structures-Algorithms-Made-Easy-ebook/dp/B01N32J05C/ref=sr_1_3?s=books&ie=UTF8&qid=1539454740&sr=1-3&keywords=karumanchi)
+- [Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles, Fifth Edition](https://www.amazon.com/Data-Structures-Algorithms-Made-Easy-ebook/dp/B01N32J05C/ref=sr_1_3?s=books&ie=UTF8&qid=1539454740&sr=1-3&keywords=karumanchi)
 
-- [Data Structures and Algorithmic Thinking with Python: Data Structure and Algorithmic Puzzles] (https://www.amazon.com/Data-Structures-Algorithmic-Thinking-Python-ebook/dp/B01MT6RIC7/ref=sr_1_fkmr0_1?ie=UTF8&qid=1540119711&sr=8-1-fkmr0&keywords=algorithms+in+python+karumanchi)
+- [Data Structures and Algorithmic Thinking with Python: Data Structure and Algorithmic Puzzles](https://www.amazon.com/Data-Structures-Algorithmic-Thinking-Python-ebook/dp/B01MT6RIC7/ref=sr_1_fkmr0_1?ie=UTF8&qid=1540119711&sr=8-1-fkmr0&keywords=algorithms+in+python+karumanchi)
 
 
 ### IDEs
