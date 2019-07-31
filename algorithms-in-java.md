@@ -4,67 +4,89 @@
 #### Template Classes
 
 ```
-// Driver class
-class MyClass {
+        //Iterate over List/Set
+        final List<String> items = new ArrayList();
 
-    public static void main(String[] args) {
-        // your code
-    }
+        for(String item: items){
+         // process single item
+         }
 
-}
+```
+
+```
+       // Iterate over Map
+
+        final Map<String, String> map = new HashMap();
+
+        for(Map.Entry<String,String> entry: map.entrySet()){
+            // process single item
+        }
+
+```
+
+
+```
+        // Driver class
+        class MyClass {
+
+            public static void main(String[] args) {
+                // your code
+            }
+
+        }
 
 ```
 
 ```
 
-// Some business interfece
-interface MyService {
+        // Some business interfece
+        interface MyService {
 
-    void do(
-    String arg);
+            void do(
+            String arg);
 
-}
-
-```
-
-```
-
-// Some business logic 
-interface MyServiceImpl implements MyService {
-
-    void do(final String arg )throws SomeKindOfRuntimeException
-
-    {
-        // Validate args 
-        // Execute logic
-        // Log Progress
-        // Return value or Handle exception or release resources  try catch finally 
-    }
-
-}
+        }
 
 ```
 
 ```
 
-// Do Test Driven Development TDD
-// Mock and inject all dependencies 
+        // Some business logic 
+        interface MyServiceImpl implements MyService {
 
-class MyServiceImplTest {
+            void do(final String arg )throws SomeKindOfRuntimeException
 
-    @Test
-    public void testHappyDo() {
-    }
+            {
+                // Validate args 
+                // Execute logic
+                // Log Progress
+                // Return value or Handle exception or release resources  try catch finally 
+            }
 
-    @Test
-    public void testFailureDo() {
-    }
+        }
 
-    @Test
-    public void testEdgeCasesDo() {
-    }
+```
 
-}
+```
+
+        // Do Test Driven Development TDD
+        // Mock and inject all dependencies 
+
+        class MyServiceImplTest {
+
+            @Test
+            public void testHappyDo() {
+            }
+
+            @Test
+            public void testFailureDo() {
+            }
+
+            @Test
+            public void testEdgeCasesDo() {
+            }
+
+        }
 
 ```
 
