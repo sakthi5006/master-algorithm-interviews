@@ -97,7 +97,7 @@
 - java.lang.Object
 - [Array] (https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 - java.util.List 
-- java.util.LinkedList
+- java.util.LinkedList `As stack - (pop, push, peek)  +  (queue - offer, poll, peek) `
 - java.util.Map `Dictionary or SymbolTable`
 - java.util.Set
 - java.util.PriorityQueue `Max Heap/Min Heap`
@@ -118,8 +118,9 @@
 - keyword volatile `light-weight synchronization and thread visibility`
 
 #### High Level Concurrency Objects
-- [java.util.concurrent.BlockingQueue](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html)
-- java.util.concurrent.locks.Lock
-- java.util.concurrent.executors
-- java.util.concurrent.atomic
+- [java.util.concurrent.BlockingQueue](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html) `Producer + Consumer queue based pattern`
+- java.util.concurrent.locks.Lock `Explicit locks Reentrant, ReadWrite`
+- java.util.concurrent.executors `Single, Cached, Scheduled `
+- java.util.concurrent.atomic `Make updates to primitives by multiple threads`
+- Concurrent Collections `Atomic operations on collections put/get/add etc`
 
