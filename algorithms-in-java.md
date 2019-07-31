@@ -4,6 +4,19 @@
 #### Template Classes
 
 ```
+        // Iterate over array
+ 
+        final String[] items = new String[10];
+
+        for(int i=0; i< items.length; i++){
+         // process single item
+         System.out.println("Sum of x+y = " + i);
+        }
+
+```
+
+
+```
         //Iterate over List/Set
         final List<String> items = new ArrayList();
 
