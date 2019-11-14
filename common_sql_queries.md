@@ -1,9 +1,9 @@
 
 Unfortunately these questions are still asked as of 2019. Which does not check other than SQL grammar.
 
-table name - employees
+table name - Employees
 
-| empId | name | doj | city |salary | managerId |
+| EmpId | EmpName | DOJ | City |Salary | ManagerId |
 |----|------|-----|--------| -----| ---- |
 | 1  | Davolio Nancy | 1968-12-04 | Vancouver | 100000 | 2 |
 | 2  | Fuller Margaret | 1978-05-06 | Seattle | 200000 | 2  |
@@ -12,9 +12,9 @@ table name - employees
 | 5  | Buchanan Pam | 1987-12-01 | Seattle | 250000 | 2 |
 
 
-table name - department
+table name - Department
 
-| depId | name  |
+| DepId | DepName  |
 |----|------|
 | 1  | HR | 
 | 2  | Finanace |
@@ -23,9 +23,9 @@ table name - department
 | 5  | Finanace|
 
 
-table name - emp_to_dept
+table name - DepartmentDetails
 
-| empId | depId  |
+| EmpId | DepId  |
 |----|------|
 | 1  | 1 | 
 | 2  | 2 |
@@ -35,12 +35,12 @@ table name - emp_to_dept
 
 
 
-1. Count employees per department 
+1. Count Employees per department 
 
 ```
-select e.name, d.name,  count(*) from employees e  
-join department d  on d.empId = e.empId
-join emp_to_dept etd etd.depId = d.depId
+select E.EmpName, D.DepName,  count(*) from Employees E  
+join Department D  on E.EmpId = D.EmpId
+join DepartmentDetails DD D.DepId = DD.DepId
 group by d.name 
 
  
@@ -49,29 +49,39 @@ group by d.name
 2. Find Nth Highest salary
 ```
 SELECT salary
-FROM employees emp1
+FROM Employees emp1
 WHERE N-1 = (
                 SELECT COUNT( DISTINCT ( emp2.Salary ) )
-                FROM employees emp2
+                FROM Employees emp2
                 WHERE emp2.salary > emp1.salary
 ```
 
-3. Count employees by city 
+3. Count Employees by city 
 
 ```
-SELECT city, COUNT(*) from employee group by city
+SELECT City, COUNT(*) from Employees group by City
 
 ```
 
-4. Delete duplicate employees with same name and  without creating temp table 
+4. Delete duplicate Employees with same name and  without creating temp table 
 
 ```
-DELETE FROM employees  
-WHERE empId IN 
-( SELECT empId 
-FROM employees       
-GROUP BY name
+DELETE FROM Employees  
+WHERE EmpId IN 
+( SELECT EmpId 
+FROM Employees       
+GROUP BY EmpName
 HAVING COUNT(*) > 1));
 
 ```
+
+5. Select employess who are managers
+
+```
+SELECT DISTINCT E.EmpName
+FROM Employees E
+INNER JOIN Employees M
+ON E.EmpID = M.ManagerID;
+```
+
 
