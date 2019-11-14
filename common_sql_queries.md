@@ -56,5 +56,10 @@ WHERE N-1 = (
                 WHERE emp2.salary > emp1.salary
 ```
 
-3.
+3. Count employees by city 
+
+```
+SELECT city, COUNT(*) from employee group by city
+
+```
 
