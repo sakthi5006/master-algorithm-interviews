@@ -1,4 +1,3 @@
-
 Unfortunately these questions are still asked as of 2019. Which does not check other than SQL grammar.
 
 table name - Employees
@@ -8,8 +7,8 @@ table name - Employees
 | 1  | Davolio Nancy | 1968-12-04 | Vancouver | 100000 | 2 |
 | 2  | Fuller Margaret | 1978-05-06 | Seattle | 200000 | 2  |
 | 3  | Leverling Nancy | 1988-02-01 | Singapore | 300000 | 4 |
-| 4  | Peacock Jenny | 1999-06-03 | Bangalore | 400000 | 3 |
-| 5  | Buchanan Pam | 1987-12-01 | Seattle | 250000 | 2 |
+| 4  | Peacock Jenny | 1999-04-03 | Bangalore | 400000 | 3 |
+| 5  | Buchanan Pam | 1987-04-04 | Seattle | 250000 | 2 |
 
 
 table name - Department
@@ -81,6 +80,27 @@ SELECT DISTINCT E.EmpName
 FROM Employees E
 INNER JOIN Employees M
 ON E.EmpID = M.ManagerID;
+```
+
+5. Group by same joining month 
+
+```
+SELECT strftime("%m", DOJ), EmpName from Employess group by strftime("%m", DOJ)
+
+```
+
+6. Count employees joined per month
+
+```
+SELECT strftime("%m", DOJ), count(*) from Employess group by strftime("%m", DOJ)
+
+```
+
+6. Count employees joined per month more than 2
+
+```
+SELECT strftime("%m", DOJ), count(*) AS count from Employess group by strftime("%m", DOJ) having count > 2 order by count DESC
+
 ```
 
 
