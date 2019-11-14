@@ -46,5 +46,15 @@ group by d.name
  
 ```
 
+2. Find Nth Highest salary
+```
+SELECT salary
+FROM employees emp1
+WHERE N-1 = (
+                SELECT COUNT( DISTINCT ( emp2.Salary ) )
+                FROM employees emp2
+                WHERE emp2.salary > emp1.salary
+```
 
+3.
 
