@@ -63,3 +63,15 @@ SELECT city, COUNT(*) from employee group by city
 
 ```
 
+4. Delete duplicate employees with same name and  without creating temp table 
+
+```
+DELETE FROM employees  
+WHERE empId IN (
+SELECT empId 
+FROM employees       
+GROUP BY name
+HAVING COUNT(*) > 1));
+
+```
+
