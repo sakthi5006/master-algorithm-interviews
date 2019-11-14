@@ -50,8 +50,7 @@ group by d.name
 ```
 SELECT salary
 FROM Employees emp1
-WHERE N-1 = (
-                SELECT COUNT( DISTINCT ( emp2.Salary ) )
+WHERE N-1 = ( SELECT COUNT( DISTINCT ( emp2.Salary ) )
                 FROM Employees emp2
                 WHERE emp2.salary > emp1.salary
 ```
