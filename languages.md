@@ -6,11 +6,11 @@
 - Make file 
 
 ### Languages and Grammar 
-- Python
-- Java
-- Golang 
-- Scala 
-- Javascript 
+- Python (https://docs.python.org/3/tutorial/)
+- Java (https://docs.oracle.com/javase/tutorial/)
+- Golang https://tour.golang.org/welcome/1, (https://www.toptal.com/go/go-programming-a-step-by-step-introductory-tutorial)
+- Scala (https://docs.scala-lang.org/tutorials/)
+- Javascript (https://www.w3schools.com/js/js_es6.asp)
 
 ### Common Languages Concepts 
 - Access levels and basic data structures (array/linked list/map/set/heap/tree/)
