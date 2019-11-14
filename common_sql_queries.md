@@ -1,5 +1,3 @@
-Unfortunately these questions are still asked as of 2019. Which does not check other than SQL grammar.
-
 table name - Employees
 
 | EmpId | EmpName | DOJ | City |Salary | ManagerId |
