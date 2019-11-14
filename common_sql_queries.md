@@ -80,21 +80,21 @@ INNER JOIN Employees M
 ON E.EmpID = M.ManagerID;
 ```
 
-5. Group by same joining month 
+6. Group by same joining month 
 
 ```
 SELECT strftime("%m", DOJ), EmpName from Employess group by strftime("%m", DOJ)
 
 ```
 
-6. Count employees joined per month
+7. Count employees joined per month
 
 ```
 SELECT strftime("%m", DOJ), count(*) from Employess group by strftime("%m", DOJ)
 
 ```
 
-6. Count employees joined per month more than 2
+8. Count employees joined per month more than 2
 
 ```
 SELECT strftime("%m", DOJ), count(*) AS count from Employess group by strftime("%m", DOJ) having count > 2 order by count DESC
