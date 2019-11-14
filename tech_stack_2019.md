@@ -15,7 +15,7 @@
 - Sync/Async communication 
 - Fault tolerance 
 - Transactions across multiple apis 
-- NoSQL (Map, Time Series)
+- SQL, NoSQL (Map, Time Series, Blob/File Storage)
 - Queue 
 - Blue Green deployments 
 - Rest/GRPC API design 
@@ -23,4 +23,5 @@
 - Observability - Request tracing, Volume/Latency/Fault metrics , ELK log processing 
 - Caching - Redis 
 - Graph databases 
+- Multi-Cloud deployments 
 
