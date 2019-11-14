@@ -67,8 +67,8 @@ SELECT city, COUNT(*) from employee group by city
 
 ```
 DELETE FROM employees  
-WHERE empId IN (
-SELECT empId 
+WHERE empId IN 
+( SELECT empId 
 FROM employees       
 GROUP BY name
 HAVING COUNT(*) > 1));
