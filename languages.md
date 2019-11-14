@@ -1,18 +1,18 @@
 
-Scripts 
+### Scripts 
 - Bash Script
 - SQL Scripts [ Unfortunately these questions are still asked as companies are using postgres/mysql ]
 - Linux Commands 
 - Make file 
 
-Languages and Grammar 
+### Languages and Grammar 
 - Python
 - Java
 - Golang 
 - Scala 
 - Javascript 
 
-Common Languages Concepts 
+### Common Languages Concepts 
 - Access levels and basic data structures (array/linked list/map/set/heap/tree/)
 - Inheritance/Composition/overriding/overloading/pure functions 
 - Synchronization [Threads/Locks] 
