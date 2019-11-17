@@ -103,6 +103,90 @@
 
 ```
 
+#### Arrays 
+
+```
+ int[] arr = new int[10];
+ 
+ int[] arr = new int[] {1,3,4,5,6,7,8};
+ 
+ Arrays.stream(arr).forEach(e -> System.out.println(e));
+ 
+ int size = arr.length;
+ 
+ for(int i=0; i< arr.length; i++){
+  
+  }
+  
+  int i =0;
+  while( i < arr.length) {
+  
+    i++;
+   }
+   
+   int[][] matrix = int[3][3];
+   
+   int[][] matrix = . new int[][] {
+        {1,2, 3},
+        {4,5, 6},
+        {7, 8, 9},
+        {10,11, 12},
+     };
+   
+    Arrays.stream(matrix).forEach(
+      arr2 -> {
+        System.out.println("");
+        Arrays.stream(arr2).forEach(x -> System.out.print(" " + x));
+  });
+
+int row = matrix[0].length;
+int col = matrix.length;
+
+for(int i =0; i < row; i ++) {
+        for(int i =0; i < row; i ++) {
+            // print
+        }
+}
+
+// Half 
+for(int i =0; i < row; i ++) {
+        for(int i = 0; i < row; i ++) {
+            if( i>= j) {
+            // print
+            }
+            
+        }
+}
+
+ 
+```
+
+
+#### Strings 
+
+```
+String s1 = "abc";
+String s2 = new String("abc");
+String s3 = new String(char[] {'a', 'b', 'c'});
+
+char[] c1 = s1.toCharArray();
+
+int size = s1.length();
+
+char c2 = 'A';
+
+
+String s1 = "abc";
+s1.substring(0,s1.length()); // same as S1 "abc"
+s1.substring(1); // "bc"
+s1.substring(2); // "c"
+s1.substring(1,2); // "b"
+s1.substring(1,3); // "bc"
+
+
+
+```
+
 ### Single Threaded Systems
 
 - [String](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
