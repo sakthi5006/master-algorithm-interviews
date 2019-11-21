@@ -49,34 +49,10 @@
         }
 
 ```
+### Model Class with hashcode and equal method.
+In practice, we should use lombok to remove such boiler plate code noise
 
 ```
-
-        // Some business interfece
-        interface MyService {
-
-            void do(String arg);
-
-        }
-
-```
-
-```
-
-        // Some business logic 
-        class MyServiceImpl implements MyService {
-
-            void do(final String arg )throws SomeKindOfRuntimeException
-
-            {
-                // Validate args 
-                // Execute logic
-                // Log Progress or metrics
-                // Return value or Handle exception or release resources  try catch finally 
-            }
-
-        }
-        
         // If used as key in hash map or set etc.
         
         class MyModel  {
@@ -121,7 +97,40 @@
             }
 
          }
+         
+         @Override
+         public String toString() {
+              return "MyModel [fName=" + fName + ", lName=" + lName + ", age=" + age + "]";
+         }
 
+```
+```
+
+        // Some business interfece
+        interface MyService {
+
+            void do(String arg);
+
+        }
+
+```
+
+```
+
+        // Some business logic 
+        class MyServiceImpl implements MyService {
+
+            void do(final String arg )throws SomeKindOfRuntimeException
+
+            {
+                // Validate args 
+                // Execute logic
+                // Log Progress or metrics
+                // Return value or Handle exception or release resources  try catch finally 
+            }
+
+        }
+        
 
 ```
 
