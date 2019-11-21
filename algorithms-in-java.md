@@ -229,6 +229,74 @@ for(int i =0; i < row; i ++) {
  
 ```
 
+### Map
+Keys need to implment hashCode and equals method for correct results.
+
+```
+Map<Integer, String> map = new HashMap();
+
+map.put(1, "V1");
+
+if(map.containsKey(1)) {
+   // Do something
+  }
+  
+map.remove(1);
+
+```
+
+
+### Priority Queue or Heap
+Most important data structure.
+```
+class Person {
+  int id;
+}
+
+class PersonComparator<Person> {
+ }
+
+PriorityQueue<Person> queue = PriorityQueue(11,new PersonComparator())
+
+queue.add(new Person(3));
+queue.add(new Person(1));
+queue.add(new Person(2));
+
+while(!queue.isEmpty()){
+   Person p0  = queue.peek();
+   // P0 is null if queue is empty.
+  Person p1 = queue.remove();
+  // process p1
+ }
+
+```
+
+### Queue and Stack
+```
+// As stack 
+ LinkedList<String> stack = new LinkedList();
+ stack.push("A");
+ stack.push("A");
+ 
+ while(!stack.isEmpty()) {
+ String entry1 =  stack.peek(); 
+ String entry2 =  stack.pop(); 
+ 
+ }
+ 
+ // As queue 
+ 
+ LinkedList<String> queue = new LinkedList();
+ queue.add("A");
+ queue.add("A");
+ 
+ while(!stack.isEmpty()) {
+ String entry =  queue.remove();
+ }
+ 
+```
+
+
 
 #### Strings 
 
