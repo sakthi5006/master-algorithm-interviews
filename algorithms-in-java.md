@@ -276,7 +276,7 @@ while(!queue.isEmpty()){
 // As stack 
  LinkedList<String> stack = new LinkedList();
  stack.push("A");
- stack.push("A");
+ stack.push("B");
  
  while(!stack.isEmpty()) {
  String entry1 =  stack.peek(); 
@@ -288,7 +288,7 @@ while(!queue.isEmpty()){
  
  LinkedList<String> queue = new LinkedList();
  queue.add("A");
- queue.add("A");
+ queue.add("B");
  
  while(!stack.isEmpty()) {
  String entry =  queue.remove();
