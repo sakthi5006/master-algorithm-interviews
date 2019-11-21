@@ -55,8 +55,7 @@
         // Some business interfece
         interface MyService {
 
-            void do(
-            String arg);
+            void do(String arg);
 
         }
 
@@ -65,18 +64,64 @@
 ```
 
         // Some business logic 
-        interface MyServiceImpl implements MyService {
+        class MyServiceImpl implements MyService {
 
             void do(final String arg )throws SomeKindOfRuntimeException
 
             {
                 // Validate args 
                 // Execute logic
-                // Log Progress
+                // Log Progress or metrics
                 // Return value or Handle exception or release resources  try catch finally 
             }
 
         }
+        
+        // If used as key in hash map or set etc.
+        
+        class MyModel  {
+          String fName;
+          String lName;
+          int  age;
+          
+          @Override
+          public boolean equals(Object o) {
+                if (o == this)
+                    return true;
+                if (!(o instanceof MyModel))
+                    return false;
+                    
+                MyModel other = (MyModel)o;
+                
+                boolean fNameEquals = (this.fName == null && other.fName == null)
+                  || (this.fName != null && this.fName.equals(other.fName));
+                  
+                 boolean lNameEquals = (this.lName == null && other.lName == null)
+                  || (this.lName != null && this.lName.equals(other.lName));
+                  
+               return  this.age == other.this &&  fNameEquals && lNameEquals;
+            }
+            
+        @Override
+        public final int hashCode() {
+        
+            int result = 17;
+            
+            if (fname != null) {
+                result = 31 * result + fname.hashCode();
+            }
+            
+            if (lname != null) {
+                result = 31 * result + lname.hashCode();
+            }
+            
+            result = 31 * result + age;
+            
+            return result;
+            }
+
+         }
+
 
 ```
 
@@ -84,6 +129,7 @@
 
         // Do Test Driven Development TDD
         // Mock and inject all dependencies 
+        // If lot of data consider parameterized test using TestNG
 
         class MyServiceImplTest {
 
@@ -91,7 +137,7 @@
             public void testHappyDo() {
             }
 
-            @Test
+            @Test(expected = SomeKindOfRuntimeException.class)
             public void testFailureDo() {
             }
 
@@ -115,8 +161,13 @@
  int size = arr.length;
  
  for(int i=0; i< arr.length; i++){
-  
+     // process one item
   }
+  
+  for(int i=arr.length-1; i >= 0 ; i--){
+      // process one item
+  }
+  
   
   int i =0;
   while( i < arr.length) {
@@ -124,9 +175,17 @@
     i++;
    }
    
+  int i = 0;
+  int j =  arr.length;
+  while( i < j) {
+  
+    i++;
+    j--;
+   }
+   
    int[][] matrix = int[3][3];
    
-   int[][] matrix = . new int[][] {
+   int[][] matrix = new int[][] {
         {1,2, 3},
         {4,5, 6},
         {7, 8, 9},
@@ -139,12 +198,12 @@
         Arrays.stream(arr2).forEach(x -> System.out.print(" " + x));
   });
 
-int row = matrix[0].length;
-int col = matrix.length;
+int col = matrix[0].length;
+int row = matrix.length;
 
 for(int i =0; i < row; i ++) {
-        for(int i =0; i < row; i ++) {
-            // print
+        for(int i =0; i < col; i ++) {
+            // print matrix[row][col]
         }
 }
 
