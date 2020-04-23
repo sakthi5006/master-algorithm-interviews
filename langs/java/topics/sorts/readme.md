@@ -22,6 +22,6 @@
 | Quick Sort|Comparision|NO|NO|O(nlog(n))|O(nlog(n))|O(nlog(n))|
 | Merge Sort|Comparision + divide and conquer|NO|YES|O(nlog(n))|O(nlog(n))|O(nlog(n))|
 | Heap Sort|Comparision|YES|NO|O(nlog(n))|O(nlog(n))|O(nlog(n))|
-| Bucket Sort|Bucket|DEPENDS|NO|O(n)|||
+| Bucket Sort|Bucket|NO|DEPENDS|O(n)|||
 | Radix Sort|Digit by Digit Comparision|NO|YES|O(n+d)|||
 
